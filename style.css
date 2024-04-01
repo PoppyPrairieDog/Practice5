@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, serif;
+}
+html,
+body,
+.index {
+    height: 100%;
+}
+header {
+    display: flex;
+    width: 100vw;
+    padding: 20px, 160px, 20px, 160px;
+    border-bottom: 1px solid #eaecf0;
+    
+}
+.sidebar_header {
+    display: flex;
+    flex:1;
+    align-items: center;
+    margin: 1rem  8rem;
+    justify-content: space-between;
+}
+footer {
+   margin-top: auto;
+    bottom: 0;
+}
+.author {
+    margin: 1rem  8rem;
+    color: #667085;
+}
+main {
+    margin: 3rem  8rem;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navigation a{
+   text-decoration: none;
+    border: 1px solid #eaecf0;
+    padding: 0.5rem;
+    color:  #354153;
+}
+.navigation a.active{
+background-color:#F2F4F7;
+}
+.dropdown {
+    border: 1px solid#eaecf0;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: #354153;
+    font-weight: 500;
+}
+.news-panel{
+    border: 1px solid#eaecf0;
+    width: 20rem;
+    padding: 1rem;
+}
+.panel-header{
+    display: flex;
+    justify-content: space-between;
+}
+.news-panel img{
+    width: 100%;
+    padding: 1rem 0rem;
+}
+.content{
+    display: flex;
+    gap: 1rem;
+    padding-top: 1rem;
+}
